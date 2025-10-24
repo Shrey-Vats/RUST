@@ -146,4 +146,3 @@ fn num_star_pattern10(till: u32){
 }
 
 
-

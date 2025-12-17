@@ -36,4 +36,17 @@ mod tests {
     fn equal_numbers() {
         assert_eq!(42, bigger(42, 42));
     }
+};
+
+fn main () {
+    
+    let mut num: u32 = 22;
+    
+    loop {
+        if num % 2 == 0 {
+            num += 2;
+        }; else {
+            num -= 2;
+        };
+    };
 }
